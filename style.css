@@ -4,6 +4,10 @@
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+body {
+  margin: auto;
+}
+
 h1, h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -21,8 +25,8 @@ a:link {
 }
 
 header {
-      background-color: #2a3443;
-    margin: auto;
+    background-color: #2a3443;
+    margin: 0 auto 0 auto;
     width: 100%;
     overflow: auto;
     border-bottom: 5px solid #009efa;
@@ -80,7 +84,7 @@ main h2 {
 .center {
       /* background-color: #ffffff; */
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     /* text-align: center; */
 }
 
