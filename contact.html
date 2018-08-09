@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Youssef Hamid</title>
+  <meta name="viewport" content="width=device-width, initial.scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -12,7 +14,10 @@
     <div class="center">
       <h1>Youssef Hamid</h1>
       <nav>
-        <ul class="nav-menu">
+        <a href="#" id="menu-icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul class="nav-menu" id="myTopnav">
           <li>
             <a class="active" href="contact.html">Contact</a>
           </li>
@@ -20,8 +25,13 @@
             <a class="active" href="portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a class="active" href="index.html">About</a>
+            <a class="current" href="index.html">About</a>
           </li>
+          <!-- <li>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li> -->
         </ul>
       </nav>
     </div>
